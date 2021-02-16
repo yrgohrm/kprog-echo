@@ -17,7 +17,7 @@ well as setting the web server port.
 By default it uses the port 8080 and the directory webroot in the current 
 directory.
 
-`java -jar kprog-echo-1.0-all.jar`
+`java -jar kprog-echo-1.0.jar`
 
 The release contains a sample application so run the server and visit:
 `http://localhost:8080/index.html`.
