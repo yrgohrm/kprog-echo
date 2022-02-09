@@ -31,3 +31,7 @@ target/*
 .project
 .settings/*
 .vscode/*
+
+# IntelliJ files
+.idea/*
+/*.iml
