@@ -36,7 +36,7 @@ import static spark.Spark.staticFiles;
  *
  */
 public class Main {
-    final static Logger logger = LoggerFactory.getLogger(Main.class);
+    static final Logger logger = LoggerFactory.getLogger(Main.class);
 
     public static void main(String[] args) {
         CommandLineParser parser = new DefaultParser();

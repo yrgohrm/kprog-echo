@@ -30,14 +30,14 @@ import spark.Response;
  * Tests for EchoHandler.
  *
  */
-public class EchoHandlerTest {
+class EchoHandlerTest {
     private static final String data = "{\"data\":1.0}";
 
     /**
      * Test GET method.
      */
     @Test
-    public void testGetEcho() {
+    void testGetEcho() {
         Request request = mock(Request.class);
         Response response = mock(Response.class);
 
@@ -51,7 +51,7 @@ public class EchoHandlerTest {
      * Test GET method with bad input.
      */
     @Test
-    public void testGetEchoBad() {
+    void testGetEchoBad() {
         Request request = mock(Request.class);
         Response response = mock(Response.class);
 
@@ -69,7 +69,7 @@ public class EchoHandlerTest {
      * Test GET method with delay parameter.
      */
     @Test
-    public void testGetEchoDelay() {
+    void testGetEchoDelay() {
         Request request = mock(Request.class);
         Response response = mock(Response.class);
 
@@ -88,7 +88,7 @@ public class EchoHandlerTest {
      * Test GET method with bad delay parameter (>60).
      */
     @Test
-    public void testGetEchoBadDelay() {
+    void testGetEchoBadDelay() {
         Request request = mock(Request.class);
         Response response = mock(Response.class);
 
@@ -105,7 +105,7 @@ public class EchoHandlerTest {
      * Test POST method.
      */
     @Test
-    public void testPostEcho() {
+    void testPostEcho() {
         Request request = mock(Request.class);
         Response response = mock(Response.class);
 
@@ -119,7 +119,7 @@ public class EchoHandlerTest {
      * Test POST method with bad input.
      */
     @Test
-    public void testPostEchoBad() {
+    void testPostEchoBad() {
         Request request = mock(Request.class);
         Response response = mock(Response.class);
 

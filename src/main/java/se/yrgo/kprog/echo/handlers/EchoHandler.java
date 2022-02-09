@@ -25,6 +25,9 @@ import spark.Response;
  *
  */
 public class EchoHandler {
+    private EchoHandler() {
+    }
+
     /**
      * Will take the query parameter "data", verify that it is valid JSON and send
      * it back.
